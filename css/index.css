@@ -203,7 +203,7 @@ footer{
 	.logo{
 		display: relative;
 		top: 30px;
-		right: 230px;
+		right: 250px;
 	}
 
 	.container{
@@ -228,7 +228,8 @@ footer{
 	button{
 		display: relative;
 		top: 50px;
-		left: 79px;
+		left: 55px;
+		border-radius: 5%;
 	}
 
 	.container{
@@ -247,6 +248,16 @@ footer{
 		flex-direction: row;
 	}
 
+	.column3 div{
+		margin-right: 15px;
+	}
+
+	footer{
+		display: inline;
+		text-align: center;
+		margin-left: 60rem;
+	}
+
 }
 
 @media(max-width: 500px){
@@ -257,9 +268,8 @@ footer{
 	nav{
 		display: flex;
 		flex-direction: column;
-		margin-right: 20px;
 		margin-top: 60px;
-		margin-left: 150px;
+		margin-left: 220px;
 	}
 
 	nav a{
@@ -274,11 +284,13 @@ footer{
 	.logo{
 		position: relative;
 		top: 0rem;
-		left: 1rem;
+		left: -3rem;
 	}
 
 	.header{
 		position: relative;
+		margin-top: 100px;
+		margin-right: 100px;
 		right: 100px;
 		bottom: 100px;
 	}
@@ -286,7 +298,7 @@ footer{
      button{
 		display: relative;
 		top: 70px;
-		left: 290px;
+		left: 13rem;
 		background: white;
 		border: 1.5px black  solid;
 		border-radius: 6%;
